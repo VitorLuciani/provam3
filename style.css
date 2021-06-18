@@ -1,0 +1,192 @@
+@media screen  and (min-width: 1025px){
+    .menu {
+        width: 100%; 
+        background-color:#5995da; 
+        height: 35px;
+        top: 0;
+        left: 0;
+        position: absolute;
+    }
+    .header{
+        padding-top: 20px;
+        width: 100%; 
+        background-color:#b2d6ff; 
+        text-align: center;
+        height: 200px;
+        line-height: 200px;
+    }
+    .features{
+        height: 300px;
+        width: 100%;
+        background-color: black;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        line-height: 300px;
+    }
+    .f1 {
+        background-color: #f5cf8e;
+        text-align: center;
+        width: 33.33333333%;
+    }
+    .f2 {
+        background-color: #c8c6fa;
+        text-align: center;
+        width: 33.33333333%;
+    }
+    .f3 {
+        background-color: #f09a9d;
+        text-align: center;
+        width: 33.33333334%;
+    }
+    .signup{
+        background-color: #d6e9fe;
+        width: 100%;
+        height: 100px;
+        line-height: 100px;
+        text-align: center;
+    }
+    .content{
+        background-color: #eaedf0;
+        width: 100%;
+        height: 400px;
+        line-height: 400px;
+        text-align: center;
+    }
+    .tablet{
+        display: none;
+    }
+    .mobile{
+        display: none;
+    }
+}
+@media screen and (max-width: 768px) {
+    .menu {
+        width: 100%; 
+        background-color:#5995da; 
+        height: 35px;
+        top: 0;
+        left: 0;
+        position: absolute;
+    }
+    .header{
+        padding-top: 20px;
+        width: 100%; 
+        background-color:#b2d6ff; 
+        text-align: center;
+        height: 200px;
+        line-height: 200px;
+    }
+    .features{
+        height: 300px;
+        width: 100%;
+        background-color: black;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        line-height: 300px;
+    }
+    .f1 {
+        background-color: #f5cf8e;
+        text-align: center;
+        width: 100%;
+        height: 200px;
+        line-height: 200px;
+    }
+    .f2 {
+        background-color: #c8c6fa;
+        text-align: center;
+        width: 100%;
+        height: 200px;
+        line-height: 200px;
+    }
+    .f3 {
+        background-color: #f09a9d;
+        text-align: center;
+        width: 100%;
+        height: 200px;
+        line-height: 200px;
+    }
+    .signup{
+        background-color: #d6e9fe;
+        width: 100%;
+        height: 200px;
+        line-height: 200px;
+        text-align: center;
+    }
+    .content{
+        background-color: #eaedf0;
+        width: 100%;
+        height: 400px;
+        line-height: 400px;
+        text-align: center;
+    }
+    .desktop{
+        display: none;
+    }
+    .tablet{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .menu {
+        width: 100%; 
+        background-color:#5995da; 
+        height: 35px;
+        top: 0;
+        left: 0;
+        position: absolute;
+    }
+    .header{
+        padding-top: 20px;
+        width: 100%; 
+        background-color:#b2d6ff; 
+        text-align: center;
+        height: 200px;
+        line-height: 200px;
+    }
+    .features{
+        height: 300px;
+        width: 100%;
+        background-color: black;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        line-height: 300px;
+    }
+    .f1 {
+        background-color: #f5cf8e;
+        text-align: center;
+        width: 50%;
+    }
+    .f2 {
+        background-color: #c8c6fa;
+        text-align: center;
+        width: 50%;
+    }
+    .f3 {
+        background-color: #f09a9d;
+        text-align: center;
+        width: 50%;
+    }
+    .signup{
+        background-color: #d6e9fe;
+        width: 50%;
+        text-align: center;
+    }
+    .content{
+        background-color: #eaedf0;
+        width: 100%;
+        height: 400px;
+        line-height: 400px;
+        text-align: center;
+        top: 10px;
+    }
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display: none;
+    }
+}
